@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "Multiplayer tic tac toe game on the same machine",
+  "main": "game.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -w -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanAmbrozic/Tic-tac-toe.git"
+  },
+  "author": "Jan Ambrožič",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JanAmbrozic/Tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/JanAmbrozic/Tic-tac-toe#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.14.0"
+  }
+}
